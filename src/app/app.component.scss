@@ -20,7 +20,72 @@
       .link {
         color: #222222;
         font-family: openSansRegular;
+        font-size: 0.75rem;
       }
     }
   }
 }
+
+.hero_section {
+  height: 250px;
+  background: transparent url("../assets/img/blob-small.png") 0% 0% no-repeat
+    padding-box;
+}
+
+.card {
+  box-shadow: inset 0 1px 40px 0 #fff, 0 2px 10px 0 rgba(255,255,255,.5), 0 0 30px 0 rgba(35,33,50,.12);
+  background: #ffffff;
+  width: 60%;
+  .card_header {
+    background-color: #fafbfd;
+    height: 50px;
+    display: flex;
+    font-family: openSansRegular;
+    justify-content: center;
+    align-items: center;
+    h4 {
+      font-family: openSansRegular;
+    }
+  }
+
+  .range_section {
+    padding: 5px 25px;
+    p, .input_label {
+      font-size: .65rem;
+      font-family: openSansRegular;
+    }
+  }
+  .question_range {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+.message_card {
+  height: 300px;
+  display: flex;
+  align-items: center;
+  background: #673E98;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  margin-left: 10px;
+  .message_container {
+    padding: 10px 20px;
+    .message {
+      font-family: monteserrat_medium;
+      text-align: center;
+      margin-bottom: 40px;
+      h4 {
+        color: #D1C2E1;
+        font-size: .8rem;
+        margin-bottom: 10px;
+      }
+      p {
+        color: #ffffff;
+        font-size: .6rem;
+      }
+    }
+  }
+}
+

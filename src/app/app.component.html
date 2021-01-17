@@ -1,7 +1,7 @@
 <section class="header">
   <header class="header-container">
     <div class="logo">
-      <img src="../assets/img/logo.png">
+      <img src="../assets/img/logo.png" />
     </div>
     <div class="nav_items">
       <div class="nav_item">
@@ -17,8 +17,74 @@
         <a href="" class="border-button">Login</a>
       </div>
       <div class="nav_item">
-        <a href="" class="special_link">Getting Started</a>
+        <a href="" class="border-button btn-fill">Getting Started</a>
       </div>
     </div>
   </header>
+</section>
+<section id="home">
+  <div class="flex_container">
+    <div class="section_left_container">
+      <div class="hero_section">
+        <div class="hero_text">
+          <h3>We make it Super Simple</h3>
+          <div class="underline"></div>
+        </div>
+      </div>
+    </div>
+    <div class="section_right_container">
+      <div class="flex_container align_center">
+      <div class="card">
+        <div class="card_header">
+          <h4>Eligibility Calculator</h4>
+        </div>
+        <div class="range_section">
+          <p class="header">Monthly Income</p>
+          <mat-slider min="1" max="5" step="0.5" value="1.5"></mat-slider>
+        </div>
+        <div class="range_section">
+          <p class="header">Monthly Expense</p>
+          <mat-slider min="1" max="5" step="0.5" value="1.5"></mat-slider>
+        </div>
+        <div class="range_section">
+          <p class="header">Repayment Tenure</p>
+          <mat-form-field>
+            <mat-select>
+              <mat-option value="6">6 Months</mat-option>
+              <mat-option value="12">12 Months</mat-option>
+              <mat-option value="24">24 Months</mat-option>
+            </mat-select>
+          </mat-form-field>
+        </div>
+        <div class="range_section question_range">
+          <p class="header">Do you have any Existing loans?</p>
+          <input type="checkbox" class="toggle" />
+        </div>
+        <div class="range_section">
+          <p class="header">Do you have any Existing loans?</p>
+          <span class="input_label">EMI of existing loan (optional)</span>
+          <mat-form-field class="example-full-width">
+            <!-- <mat-label>EMI of existing loan (optional)</mat-label> -->
+            <input matInput value="">
+          </mat-form-field>
+        </div>
+      </div>
+      <div class="message_card ">
+        <div class="message_container">
+          <div class="message">
+            <h4>Loan Amount</h4>
+            <p>1,00,000</p>
+          </div>
+          <div class="message">
+            <h4>Your EMI will be</h4>
+            <p>15,000</p>
+          </div>
+          <div class="btn-container">
+            <a href="" class="border-button btn-fill btn-white">GET MONEY</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </div>
 </section>

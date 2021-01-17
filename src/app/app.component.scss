@@ -27,9 +27,25 @@
 }
 
 .hero_section {
-  height: 250px;
-  background: transparent url("../assets/img/blob-small.png") 0% 0% no-repeat
-    padding-box;
+  // height: 250px;
+  // background: transparent url("../assets/img/blob-small.png") 0% 0% no-repeat
+  //   padding-box;
+  padding: 5% 15%;
+  .hero_text {
+    h3 {
+      font-family: monteserrat_medium;
+      font-weight: 400;
+      font-size: 1.2rem;
+      width: 50%;
+      margin-bottom: 1.5rem;
+    }
+  }
+  .img_container {
+    margin-top: 1.5rem;
+    img {
+      height: 200px;
+    }
+  }
 }
 
 .card {
@@ -89,3 +105,31 @@
   }
 }
 
+
+#features {
+  background: transparent url("../assets/img/sol_wave_bg.png") 0% 0% no-repeat
+  padding-box;
+  height: auto;
+}
+
+.text_container {
+  padding: 5% 20%;
+    h4 {
+      font-family: monteserrat_medium;
+      width: 80%;
+      font-size: 1.5rem;
+      font-weight: 400;
+      margin-bottom: 1rem;
+    }
+    .underline {
+      background: #707070;
+      width: 15%;
+      margin-bottom: 1.5rem;
+    }
+
+    p {
+      color: #777777;
+      font-size: .6rem;
+      margin-bottom: 2rem;
+    }
+}

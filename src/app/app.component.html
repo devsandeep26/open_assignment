@@ -27,6 +27,9 @@
     <div class="container-md-2">
       <div class="hero_section">
         <div class="hero_text">
+          <div class="bg_img">
+            <img src="../assets/img/blob-small.png" alt="">
+          </div>
           <h3>We make it Super Simple</h3>
           <div class="underline"></div>
         </div>
@@ -82,11 +85,11 @@
           <div class="message_container">
             <div class="message">
               <h4>Loan Amount</h4>
-              <p>{{emiObj.finalAmount}}</p>
+              <p>{{emiObj.finalAmount |currency:'INR'}}</p>
             </div>
             <div class="message">
               <h4>Your EMI will be</h4>
-              <p>{{emiObj.emi}}</p>
+              <p>{{emiObj.emi |currency:'INR'}}</p>
             </div>
             <div class="btn-container">
               <a href="" class="border-button btn-fill btn-white">GET MONEY</a>

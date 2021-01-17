@@ -44,6 +44,9 @@
     </div>
     <div class="container-md-2">
       <div class="flex_container align_center">
+        <div class="bg_img_right">
+          <img src="../assets/img/circle.png" alt="">
+        </div>
         <div class="card" [formGroup]="form">
           <div class="card_header">
             <h4>Eligibility Calculator</h4>
@@ -79,6 +82,9 @@
             <mat-form-field class="example-full-width">
               <input (ngModelChange)="calculateEMI()" matInput formControlName="monthly_emi" value="" />
             </mat-form-field>
+          </div>
+          <div class="dotted_img">
+            <img src="../assets/img/accounting_dots.png" alt="">
           </div>
         </div>
         <div class="message_card">
